@@ -1,3 +1,4 @@
+.direnv
 poetry.lock
 
 dist
