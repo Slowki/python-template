@@ -11,7 +11,7 @@ Dependencies are managed via [`poetry`](https://python-poetry.org/).
 Unit tests are run via `pytest`.
 
 ```bash
-poetry run pytest
+pytest
 ```
 
 ## Git Hooks
@@ -21,14 +21,13 @@ The [`git` hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) are 
 ### Installing the Hooks
 
 ```bash
-pip install pre-commit
 pre-commit install --install-hooks
 ```
 
 ## Building Documentation
 
-Documentation is built with [`pdoc3`]().
+Documentation is built with [`pdoc3`](https://pdoc3.github.io/pdoc/).
 
 ```bash
-poetry run pdoc3 --html -o docs template
+pdoc3 --html -o docs template
 ```
